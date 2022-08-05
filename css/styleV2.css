@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(48, 48, 48);
+}
+
+
+
+#division1 {
+    width: 90%;
+    height: 20px;
+    margin: 0 auto;
+    background: rgb(255, 183, 0);
+    box-sizing: border-box;
+}
+
+/*Contenedor de toda la página*/
+
+#conteiner {
+    width: 90%;
+    margin: 0 auto;
+    background: rgb(219, 243, 252);
+    min-height: 1700px;
+}
+
+/**/
+
+
+
+
+#titulo {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    background: rgb(219, 243, 252);
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+#PokedexSVG {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-left: -900px;
+    z-index: 2;
+    width: 1800px;
+}
+
+#Pantalla {
+    background: chartreuse;
+    width: 739px;
+    height: 449px;
+    z-index: 3;
+    position: absolute;
+    top: 708px;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-left: -358px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#Sub_pantalla {
+    background-color: rgb(255, 196, 129);
+    width: 100%;
+    height: 88%;
+}
+
+#Fondo_pantalla {
+    background-color: rgb(255, 196, 129);
+    width: 100%;
+    height: 88%;
+    position: absolute;
+    z-index: 3;
+    margin-left: -369.5px;
+}
+
+.content {
+    width: 100%;
+    height: 88%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 4;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.columns-5 {
+    height: 196px;
+    width: 100%;
+    border: solid white 1px;
+}
+
+
+.col-3 {
+    width: 100%;
+    height: 182px;
+    text-align: center;
+
+}
+
+.marcoimg {
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+/*
+ width: 80px;
+    height: 80px;
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1px;
+  margin: 1px;
+  
+   IMPORTANTE 
+  display: inline-block;
+*/
+
+.marcoimg2 {
+    padding: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.ID {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: white;
+}
+
+.Nombre {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.tipos {
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    gap: 1px;
+    width: 100%;
+    padding-top: 5px;
+    display: inline-block;
+
+
+}
+
+.planta {
+    background-color: rgb(87, 175, 75);
+    width: 55px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.veneno {
+    background-color: rgb(151, 66, 151);
+    width: 55px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.fuego {
+    background-color: rgb(240, 85, 13);
+    width: 55px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.volador {
+    background-color: rgb(103, 199, 255);
+    width: 55px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.agua {
+    background-color: rgb(61, 142, 248);
+    width: 55px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.bicho {
+    background-color: rgb(118, 192, 0);
+    width: 55px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+/*Detalles de los Pokemon*/
+
+/*Imagen del pokemon*/
+
+.columns-2 {
+    height: 392px;
+    width: 450px;
+}
+
+.columns-2-right {
+    height: 392px;
+    width: 100%;
+    margin: o auto;
+    
+}
+
+.marcoimg3 {
+    padding: 0px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+/*Audio*/
+
+.audio{
+    width: 50px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+
+/*Información*/
+.Barrasuperior{
+    width: 100%;
+    height: 35px;
+    padding-top: 65px;
+    display: flex;
+}
+
+
+.Numeración {
+    width: 200px;
+    height: 35px;
+    margin-left: 60px;
+}
+
+.ID2 {
+    text-align: center;
+    padding: 0;
+    padding-top: 11px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.NombrePokemon {
+    width: 100%;
+    height: 35px;
+    margin-right:  55px;
+}
+
+.Nombre2 {
+    text-align: center;
+    padding: 0;
+    padding-top: 7px;
+    margin: 0;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+.Información {
+    width: 342px;
+    height: 160px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    
+}
+
+
+.content2 {
+    width: 342px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.raza {
+    height: 28px;
+    width: 342px;
+    margin-bottom: 10px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-size: 8px;
+}
+
+.raza h1 {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+
+.columns-1 {
+    height: 28px;
+    width: 450px;
+    border: solid rgb(228, 228, 228) 1px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 39, 39);
+    text-align: left;
+    font-size: 8px;
+}
+
+.columns-1 h1 {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+
+.columns-1_2 {
+    height: 28px;
+    width: 300px;
+    border: solid rgb(228, 228, 228) 1px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-size: 8px;
+}
+
+.columns-1_2 h1 {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+
+
+
+.Texto {
+    min-height: 45px;
+    width: 340px;
+    margin-top: 7px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-size: 8px;
+    margin-left: 60px;
+    padding: 1px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Menu {
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    height: 12%;
+}
+
+
+nav {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+
+.nav-content .menu li a {
+    text-decoration: none;
+    padding: 11px 18px;
+    color: black;
+    display: block;
+    min-width: 55px;
+    text-align: center;
+
+}
+
+.nav-content .menu li a:hover {
+    background-color: #fc4112;
+    color: #ffffff;
+
+
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(75, 75, 75);
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 1500px;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Menu {
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    height: 12%;
+}
+
+
+nav {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+
+.nav-content .menu li a {
+    text-decoration: none;
+    padding: 11px 18px;
+    color: black;
+    display: block;
+    min-width: 55px;
+    text-align: center;
+
+}
+
+.nav-content .menu li a:hover {
+    background-color: #fc4112;
+    color: #ffffff;
+
+
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(75, 75, 75);
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 1500px;
+    width: 90%;
+}
